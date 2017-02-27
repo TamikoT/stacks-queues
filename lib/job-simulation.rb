@@ -38,3 +38,15 @@ until gets.chomp != ""
   puts "Employed: #{sim.workers}"
   puts "Waitlist: #{sim.waiting}"
 end
+
+# SAMPLE TERMINAL RUN
+# ------------------------------
+# Before the simulation starts
+# Employed: ["Worker #1", "Worker #2", "Worker #3", "Worker #4", "Worker #5", "Worker #6"]
+# Waitlist: ["Waitlist #1", "Waitlist #2", "Waitlist #3", "Waitlist #4"]
+# ------------------------------
+# <enter to cycle>
+
+# -------Cycle 1-------
+# Employed: ["Worker #1", "Worker #2", "Worker #3", "Worker #4", "Waitlist #1", "Waitlist #2"]
+# Waitlist: ["Waitlist #3", "Waitlist #4"]
