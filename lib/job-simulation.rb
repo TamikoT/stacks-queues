@@ -5,11 +5,11 @@ class JobSimulation
   attr_reader :workers, :waiting, :roll
 
   def initialize (jobs_available, job_seekers)
-
+    @available = jobs_available
   end
 
   def cycle
-
+    roll = rand.(1..6)
   end
 end
 
